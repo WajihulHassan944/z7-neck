@@ -1,6 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { AuthProvider } from './context/AuthContext'
+import ChatbaseWidget from "./ChatbaseWidget";
 
 export const metadata: Metadata = {
   title: 'Game-Changing Z7 Neck Bracket for Sports Whiplash Safety',
@@ -16,6 +17,8 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <AuthProvider>
+             <ChatbaseWidget />
+     
           <main>
             {children}
           </main>
