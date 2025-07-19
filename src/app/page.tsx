@@ -12,6 +12,7 @@ import { FAQ } from "../component/faq";
 import { Showcase } from "../component/showcase";
 import Video from "../component/video";
 import Footer from "../component/footer";
+import Pictures from "@/component/pictures";
 const page = () => {
   return (
     <div>
@@ -20,6 +21,9 @@ const page = () => {
       </div>
       <div id="about">
         <Blog />
+      </div>
+        <div id="pictures">
+        <Pictures />
       </div>
       <div id="activate">
         <Activate />
