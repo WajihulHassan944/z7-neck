@@ -107,7 +107,7 @@ const Navbar = () => {
                 />
               </svg>
               <span className="text-white/90 text-sm font-medium">
-                7Z Neck Bracket
+                Z7 Neck Bracket
               </span>
             </div>
           </button>
@@ -220,7 +220,7 @@ const Navbar = () => {
       >
         <div className="flex flex-col items-center justify-center h-full space-y-6 pt-16">
           {[
-            { id: "hero", label: "7Z Neck Bracket" },
+            { id: "hero", label: "Z7 Neck Bracket" },
             { id: "about", label: "What is it?" },
             { id: "design", label: "Who Needs It?" },
             { id: "techbehind", label: "The Tech Behind" },

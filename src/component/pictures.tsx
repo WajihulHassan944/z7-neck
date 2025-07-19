@@ -3,14 +3,13 @@ import Image from 'next/image';
 
 const imagePaths = [
   '/updated/one-u.png',
-  '/updated/two.jpeg',
   '/updated/three-u.png',
   '/updated/four-u.png',
 ];
 
 const Pictures = () => {
   return (
-    <div className="max-w-[1300px] mx-auto px-0 py-6" >
+    <div className="max-w-[1300px] mx-auto px-0 py-6" style={{marginBottom:'50px', marginTop:'0', paddingTop:'0'}}>
       <div className="flex flex-wrap gap-4 justify-center">
         {imagePaths.map((src, index) => (
           <div
